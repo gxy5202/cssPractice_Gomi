@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>button</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="images/font/iconfont.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/button.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form class="first">
+        <button type="button" >默认按钮</button>
+        <button type="button" >主要按钮</button>
+        <button type="button" >成功按钮</button>
+        <button type="button" >信息按钮</button>
+        <button type="button" >警告按钮</button>
+        <button type="button" >危险按钮</button>
+        
+    </form>
+    <form class="second">
+        <button type="button" >朴素按钮</button>
+        <button type="button" >主要按钮</button>
+        <button type="button" >成功按钮</button>
+        <button type="button" >信息按钮</button>
+        <button type="button" >警告按钮</button>
+        <button type="button" >危险按钮</button>
+            
+    </form>
+    <form class="third">
+        <button type="button" >圆角按钮</button>
+        <button type="button" >主要按钮</button>
+        <button type="button" >成功按钮</button>
+        <button type="button" >信息按钮</button>
+        <button type="button" >警告按钮</button>
+        <button type="button" >危险按钮</button>
+                
+    </form>
+    <form class="fourth">
+        <button type="button" ><i class="iconfont icon-sousuo"></i></button>
+        <button type="button" ><img src="images/28-写.png" /></button>
+        <button type="button" ><img src="images/正确.png" /></button>
+        <button type="button" ><img src="images/邮件.png" /></button>
+        <button type="button" ><img src="images/收藏.png" /></button>
+        <button type="button" ><img src="images/垃圾桶.png" /></button>
+                    
+    </form>
+</body>
+</html>
