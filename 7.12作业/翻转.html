@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>翻转介绍</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <script src="main.js"></script>
+    <style>
+        .dad {
+            width: 500px;
+            height: 220px;
+            margin: 100px auto;
+            border: 1px solid black;
+            position: relative;
+            transform: preserve-3d;
+            
+        }
+        .dad div:nth-child(1) {
+            background: red;
+            width: 500px;
+            height: 280px;
+            position: absolute;
+            float: left;
+            backface-visibility: hidden; 
+            transform: rotateX(-180deg);
+            transition: 1s;
+            text-align: center;
+            line-height: 280px;
+        }
+        .dad div:nth-child(2) {
+            width: 500px;
+            height: 280px;
+            position: absolute;
+            transition: 1s;
+            backface-visibility: hidden; 
+            
+        }
+        img {
+            width: 500px;
+            height: 280px;
+        }
+        .dad:hover div:nth-child(1){
+            transform: rotateX(0deg);
+        }
+        .dad:hover div:nth-child(2){
+            transform: rotateX(180deg);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="dad">
+        <div>hello,I'm Gomi</div>
+        <div><img src="images/timg.jpg" /></div>
+    </div>
+</body>
+</html>
