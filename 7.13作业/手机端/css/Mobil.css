@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mobil {
+    width: 395px;
+    height: 690px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    position: relative;
+    margin: 0 auto;
+}
+.container {
+    width: 335px;
+    height: 480px;
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;;
+    margin-top: -240px;
+    margin-left: -167.5px;
+    
+    
+}
+.time{
+    width: 100%;
+    height: 20px;
+    background: rgba(0, 0, 0, .5);
+}
+.nav {
+    width: 100%;
+    height: 415px;
+    overflow-y: scroll;
+    text-align: center;
+    background: rgb(238, 238, 238);
+    
+}
+.content {
+    width: 100%;
+    height: 300px;
+}
+
+.slide {
+    width: 100%;
+    height: 160px;
+    background: url("../images/slide1.jpg") no-repeat center red;;
+    background-size: 100%;
+}   
+.nine {
+    display: inline-block;
+    margin: 0 auto;
+}
+.nine li {
+    width: 95px;
+    height: 110px;
+    display: inline-block;
+    background: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.nine li div {
+    height: 80px;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nine li .f1 {
+    background: rgb(54,161,219);
+}
+.nine li .f2 {
+    background: rgb(103,140,225);
+}
+.nine li .f3 {
+    background: rgb(140,103,223);
+}
+.nine li .f4 {
+    background: rgb(132,208,24);
+}
+.nine li .f5 {
+    background: rgb(20,199,96);
+}
+.nine li .f6 {
+    background: rgb(243,182,19);
+}
+.nine li .f7 {
+    background: rgb(255,138,74);
+}
+.nine li .f8 {
+    background: rgb(252,83,102);
+}
+.nine li .f9 {
+    background: rgb(54,161,219);
+}
+.nine li span {
+    font-size: 10px;
+    line-height: 30px;
+    color:rgba(0, 0, 0, .3);
+}
+.nine img {
+    
+    width: 50px;
+    height: 50px;    
+    margin-top: 15px;
+    
+}
+.play {
+    height: 45px;
+    background: rgba(0, 0, 0, .5);
+}
